@@ -28,6 +28,13 @@
     RewriteRule ^foro/(.*)\/                       /index.php?seccion=foro [L]
 
 
+    RewriteRule ^productos\/$                            /index.php?seccion=productos [L]
+    RewriteRule ^productos/actualizar/([0-9]+)$          /index.php?seccion=productos&oper=update&id=$1 [L]
+    RewriteRule ^productos/eliminar/([0-9]+)$            /index.php?seccion=productos&oper=delete&id=$1 [L]
+    RewriteRule ^productos/alta\/                        /index.php?seccion=productos&oper=create [L]
+    RewriteRule ^productos/(.*)\/                        /index.php?seccion=productos [L]
+
+
     # Redirigir la URL de tipo /datos/otros/numero a /index.php?seccion=datos&oper=otros&id=numero
     #RewriteRule ^seccion/([^/]+)/([^/]+)/([^/]+)$ /index.php?seccion=$1&oper=$2&id=$3 [L,QSA]
 

@@ -109,6 +109,7 @@
                         <li class=\"nav-item px-2\"><a class=\"nav-link\" aria-current=\"page\" href=\"/usuarios/\">Usuarios</a></li>
                         <li class=\"nav-item px-2\"><a class=\"nav-link\" aria-current=\"page\" href=\"/horario/\">Horario</a></li>
                         <li class=\"nav-item px-2\"><a class=\"nav-link\" aria-current=\"page\" href=\"/foro/\">Foro</a></li>
+                        <li class=\"nav-item px-2\"><a class=\"nav-link\" aria-current=\"page\" href=\"/productos/\">Productos</a></li>
                         </ul><a class=\"btn btn-primary order-1 order-lg-0\" href=\"#!\">Login</a>
                         <form class=\"d-flex my-3 d-block d-lg-none\">
                         <input class=\"form-control me-2\" type=\"search\" placeholder=\"Buscar\" aria-label=\"Buscar\" />
@@ -121,7 +122,7 @@
                             <input class=\"form-control\" type=\"search\" placeholder=\"Buscar\" aria-label=\"Buscar\" />
                             </form>
                         </ul>
-                        </div>
+                        </div>  
                     </div>
                     </div>
                 </nav>

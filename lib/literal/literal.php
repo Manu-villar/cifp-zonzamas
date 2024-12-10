@@ -29,6 +29,9 @@
                        , 'mensaje_duplicados' => 'Hay un registro duplicado en BBDD'
                        , 'mensaje_exito'      => 'Operación realizada con éxito'
                        , 'mensaje'            => 'Mensaje'
+                       , 'precio'             => 'Precio'
+                       , 'disponibilidad'    => 'Disponibilidad'
+                       , 'accion'             => 'Accion'
  
                     ];
 
