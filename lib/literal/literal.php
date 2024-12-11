@@ -30,8 +30,11 @@
                        , 'mensaje_exito'      => 'Operación realizada con éxito'
                        , 'mensaje'            => 'Mensaje'
                        , 'precio'             => 'Precio'
-                       , 'disponibilidad'    => 'Disponibilidad'
+                       , 'disponibilidad'     => 'Disponibilidad'
                        , 'accion'             => 'Accion'
+                        , 'letra'             => 'Letra'
+                        , 'numero'            => 'Número'
+                        , 'planta'            => 'Planta'
  
                     ];
 

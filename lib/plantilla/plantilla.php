@@ -110,8 +110,10 @@
                         <li class=\"nav-item px-2\"><a class=\"nav-link\" aria-current=\"page\" href=\"/horario/\">Horario</a></li>
                         <li class=\"nav-item px-2\"><a class=\"nav-link\" aria-current=\"page\" href=\"/foro/\">Foro</a></li>
                         <li class=\"nav-item px-2\"><a class=\"nav-link\" aria-current=\"page\" href=\"/productos/\">Productos</a></li>
+                        <li class=\"nav-item px-2\"><a class=\"nav-link\" aria-current=\"page\" href=\"/ciclos/\">Ciclos</a></li>
+                        <li class=\"nav-item px-2\"><a class=\"nav-link\" aria-current=\"page\" href=\"/aulas/\">Aulas</a></li>
                         </ul><a class=\"btn btn-primary order-1 order-lg-0\" href=\"#!\">Login</a>
-                        <form class=\"d-flex my-3 d-block d-lg-none\">
+                        <form class=\"d-flex my-3 d-block d-lg-none\"> 
                         <input class=\"form-control me-2\" type=\"search\" placeholder=\"Buscar\" aria-label=\"Buscar\" />
                         <button class=\"btn btn-outline-primary\" type=\"submit\">Buscar</button>
                         </form>

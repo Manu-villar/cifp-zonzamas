@@ -91,16 +91,19 @@
                                 $salida_json['salida'] = '<div class="mensaje_error">'. Literal::getInstance()->lit['mensaje_duplicados'] .'</div>';
                             }
                         }
-                    
-
-                        echo json_encode($salida_json);
-
         
                     }
         
                     $html_salida .= $this->cabecera('actualizar');
                     $html_salida .= $this->formulario($oper,$errores);
         
+                break;
+                case 'read':
+                    $this->inicializar();
+                    $this->recuperar();
+                    $this->form->activeDisable();
+                    $html_salida .= $this->cabecera('leer');
+                    $html_salida .= $this->formulario($oper,$errores);
                 break;
                 case 'delete':
                    
